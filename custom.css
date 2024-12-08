@@ -1,0 +1,317 @@
+.login-card .logo img{
+    max-height: 60px;
+}
+.reservation.card{
+    box-shadow: none !important;
+    border-color: transparent;
+}
+.reservation .table-responsive{
+    overflow-y: hidden;
+} 
+.reservation table th {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+.reservation .full-screen-icon svg{
+    width: 16px;
+    height: 16px;
+    font-weight: 500;
+    color:#747474;
+}
+.reservation .full-screen-icon{
+    border-radius: 4px;
+    line-height: 1;
+}
+.table-hover tbody tr td svg {
+    width: 30px;
+    height: 28px;
+    padding: 0;
+    border-radius: 4px;
+    margin-right: 5px;
+    line-height: 1;
+    padding-top: 8px;
+}
+.hidden {
+    display: none;
+}
+.reservation .expand-icon {
+    font-size: 20px;
+    vertical-align: top;
+}
+.reservation .room-title{
+    background-color: rgba(51, 191, 191, 0.1);
+}
+.reservation .unallocated-room{
+    background-color: rgba(255, 97, 80, 0.1)
+}
+.reservation table th:first-child, .reservation table td:first-child{
+    width: 100px;
+}
+.page-sub-header .body-header .sidebar-body-menu {
+    display: flex;
+    justify-content: flex-start !important;
+}
+@media only screen and (min-width: 768px) {
+    .page-wrapper.material-icon .page-body-wrapper .page-body {
+        max-width: 1920px;
+    }
+    .page-wrapper.material-icon .page-header {
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 1920px;
+    }
+    .page-sub-header .body-header {
+        padding: 0 20px;
+    }
+}
+.page-sub-header .body-header .sidebar-body-menu > li {
+    padding: 18px 0px;
+}
+.reservation-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reservation-head .btn-icon svg, .add-extra-room .btn-icon svg{
+    width: 14px;
+    margin-right: 4px;
+    height: 14px;
+    vertical-align: middle;
+}
+
+.reservation-head .btn-light {
+    color: #444444;
+    background-color: transparent !important;
+    border-color: #ced4da !important;
+}
+.reservation-head .btn-light:hover {
+    color: #33bfbf !important;
+}
+.reservation-head .btn-group .btn {
+    padding: 3px 12px;
+}
+.reservation-head .btn-group .btn span{
+    font-size: 18px;
+    font-weight: 700;
+}
+.reservation-head .btn-group .btn span i{
+    font-size: 13px;
+}
+.reservation-head .btn-group .btn-light:hover{
+    color: #444444 !important;
+}
+.reservation-head .flatpickr-input{
+    font-size: 14px;
+    line-height: 1;
+}
+.form-control:focus, .form-select:focus{
+    border-color: #33bfbf;
+}
+.form-select-sm, .form-control-sm {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.border-radius-4 {
+    border-radius: 4px;
+}
+.room-type-bar label, .reservation-summary {
+    color: #31322D;
+}
+.w-120{
+    width: 120px !important;
+}
+#reservation .input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback){
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+@media (min-width: 576px) {
+    .modal-sm {
+        --bs-modal-width: 350px;
+    }
+}
+
+/* #addReservation{
+    position: relative;
+}
+#addReservation:after{
+    content:"x";
+    position: absolute;
+    font-size: 12px;
+    top:9px;
+    right: 7px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: red;
+} */
+
+.highlight{
+    border:2px dashed rgb(75, 73, 230) !important;
+    
+}
+
+
+
+
+.reservationTab li a .active{
+    color:#000 !important;  
+}
+
+.reservationTab li a{
+    font-size: 12px !important;
+}
+.reservationTab .nav-link{
+    color: #fff;
+}
+.invice-table th{
+     padding: 0px !important;
+     font-size: 12px;
+     font-weight: 400;
+}
+.invice-table td{
+    padding: 0px !important;
+    font-size: 12px;
+  
+}
+.invice-table a{
+    font-size: 12px;
+}
+.invoiceList p{
+ font-size: 12px;
+}
+.invoiceNote{
+    font-size: 12px;
+}
+
+
+
+/* .paymentRec p{
+    font-size: 12px;
+} */
+.rsummary{
+    z-index: 18;
+}
+.paymentRec-Dtab .input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback){
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.paymentRec-Dtab {
+    opacity: 0;
+    z-index: -11;
+    font-size: 12px;
+    right: 0px;
+    width: 100%;
+    transition: 1s;
+    
+}
+.paymentRec-Dtab p{
+    font-size: 12px;
+}
+
+
+.paymentRec-Paytab .input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback){
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.paymentRec-Paytab {
+    opacity: 0;
+    z-index: -11;
+    font-size: 12px;
+    right: 0px;
+    width: 100%;
+    transition: 1s;
+    
+}
+.paymentRec-Paytab p{
+    font-size: 12px;
+}
+
+
+.paymentRec-Notetab .input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback){
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.paymentRec-Notetab {
+    opacity: 0;
+    z-index: -11;
+    font-size: 12px;
+    right: 0px;
+    width: 100%;
+    transition: 1s;
+    
+}
+.paymentRec-Notetab p{
+    font-size: 12px;
+}
+/* .formclosebtn{
+    opacity: 0;
+}
+.addGuestsform:hover .formclosebtn{
+opacity: 1;
+}
+
+#roomReserve:hover .formclosebtn{
+    opacity: 1;
+}
+
+.detailform:hover .formclosebtn{
+    opacity: 1;
+}
+
+.customerStatus{
+    opacity: 0;
+} */
+
+.resbox{
+    width: 720px;
+    height: auto;
+    top: 44px;
+    left: -2px;
+}
+
+#roomReserveDetails:hover .formclosebtn{
+    opacity: 1;
+}
+
+.dropdown-menu.show{
+    z-index: 333;
+}
+.confirmDrop.dropup.show{
+    transform: translate(-110px, -37px) !important;
+}
+
+.reservationTab .nav-item{
+    margin: 0px 3px;
+}
+
+.reservationTab .nav-item a:hover{
+    border: 1px solid transparent !important;
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.formclosebtn{
+    opacity: 0;
+}
+.element:hover .formclosebtn{
+    opacity: 1;
+}
+
+.d-tab-element:hover .formclosebtn{
+    opacity: 1;
+}
+
+.g-tab-element:hover .formclosebtn{
+    opacity: 1;
+}
+
+.bookedby {
+    z-index: 777;
+}
